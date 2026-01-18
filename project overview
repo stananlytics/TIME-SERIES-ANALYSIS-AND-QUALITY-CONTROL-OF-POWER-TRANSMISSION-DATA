@@ -1,0 +1,26 @@
+Project iverview:
+
+This project focuses on the application of time series analysis and statistical quality control techniques to power transmission data obtained from the Transmission Company of Nigeria (TCN), Omotosho Chapter, Ondo State. The study uses daily load data from gas turbines operating in two phases to examine the behavior of power transmission over time.
+
+The primary aim of the project is to identify trends, seasonal patterns, and irregular fluctuations in power transmission data, as well as to assess system stability and operational efficiency. Time series models, particularly ARIMA models, were employed to forecast future power loads, while statistical quality control tools such as X-bar and R control charts were used to monitor process variation and detect periods when the transmission system deviated from acceptable limits.
+
+The findings reveal notable variations in turbine performance, including seasonal effects and occasional anomalies that may affect transmission efficiency. By integrating forecasting techniques with quality control methods, the study demonstrates how statistical analysis can support proactive decision-making, improve reliability, and enhance the overall management of power transmission systems.
+
+
+R packages used 
+tidyverse
+for data manipulation
+
+ggplot2
+for data visualization 
+forecast
+Used for time series modeling and forecasting. This package provided tools such as auto.arima() for automatic ARIMA model selection, forecasting functions, and diagnostic checks.
+
+tseries
+Applied for time series diagnostics, particularly the Augmented Dickey-Fuller (ADF) test, which was used to assess stationarity of the power transmission data.
+
+ggplot2
+Used for data visualization, including time series plots and graphical presentation of trends and forecast results.
+
+stats (base R package)
+Utilized for descriptive statistics, basic time series operations, and computation of summary measures such as mean, variance, skewness, and kurtosis.
